@@ -1,11 +1,8 @@
-Here's your copy-ready **README.md** file:  
-
-```md
 # MNIST Digit Recognition with TensorFlow
 
 This project trains a Convolutional Neural Network (CNN) to recognize handwritten digits using the MNIST dataset. It includes scripts for training, testing, and converting the model to TensorFlow Lite (TFLite).
 
-## 📌 Installation
+## Installation
 1. Clone the repository:
    ```sh
    git clone <repo_url>
@@ -16,7 +13,7 @@ This project trains a Convolutional Neural Network (CNN) to recognize handwritte
    pip install -r requirements.txt
    ```
 
-## 🚀 Training the Model
+## Training the Model
 Run the following script to train the model:
 ```sh
 python train_model.py
@@ -27,7 +24,7 @@ This will:
 - Train the CNN model
 - Save the trained model as `digits_recognition_cnn.h5`
 
-## 🧪 Testing the Model
+## Testing the Model
 To run the trained model on test data:
 ```sh
 python test_model.py
@@ -37,22 +34,21 @@ This will:
 - Predict test images
 - Display the results
 
-## 🔄 Convert Model to TensorFlow Lite
+## Convert Model to TensorFlow Lite
 To convert the trained model to TensorFlow Lite format:
 ```sh
 python convert_tflite.py
 ```
 This will create `digits_recognition_cnn.tflite` for deployment on edge devices.
 
-## 📜 Files
+## Files
 - `train_model.py` - Script to train and save the model
 - `test_model.py` - Script to test the model on test data
 - `convert_tflite.py` - Script to convert the model to TFLite format
 - `requirements.txt` - Dependencies for the project
 
-## 📞 Support
+## Support
 For any issues, feel free to create an issue or contact the maintainer.
 
 Happy coding! 🚀
-```
 
